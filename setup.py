@@ -13,4 +13,8 @@ setup(
     install_requires=[],
     packages=find_packages('src'),
     package_dir={'': 'src'},
+<<<<<<< HEAD
 )
+=======
+)
+>>>>>>> 70ad0cd0b65b652541b4660cc5bb7de603bea3ca
