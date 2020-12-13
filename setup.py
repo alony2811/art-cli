@@ -10,7 +10,12 @@ setup(
     log_description=readme,
     author='AlonYaron',
     author_email='alony@jfrog.com',
-    install_requires=[],
+    install_requires=['requests'],
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    )
+    entry_points={
+        'console_scripts': [
+            'artcli=artcli:main',
+        ],
+    },
+)
